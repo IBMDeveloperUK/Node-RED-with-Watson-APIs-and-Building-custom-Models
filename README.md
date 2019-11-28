@@ -39,5 +39,7 @@ Before setting up your environment, and in order to create the services needed f
 
 1. Click the "Create Resource" Option at the top right corner 
 
+![](Images/Create_resource.png)
+ 
 
 3. Search and select "Node-RED Starter" 
