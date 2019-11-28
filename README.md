@@ -45,3 +45,10 @@ Before setting up your environment, and in order to create the services needed f
 2. Seach for 'Visual Recognition' and select the 'Lite Plan' and click 'Create' 
 
 ![](Images/visual_recogntion.png)
+
+3. After the service is created navigate to the 'Service Credentials' option on the left pane and click on 'View credentials'  from your Auto-generated service credentials
+
+4. Among the list of credentials displayed, copy the "apikey" for later use into a file on your workstation. 
+(You can always go back to the IBM Cloud console to copy the credentials from your list of services when you need them)
+
+
