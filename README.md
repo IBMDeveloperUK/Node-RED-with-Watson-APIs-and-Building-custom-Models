@@ -16,7 +16,7 @@ This app in this lab will be created and run on your IBM Cloud Account.
 
 • Next you will create a simple Node-RED flow that allows you to past an Image URL from the Web and pass it to the IBM Watson Visual Recognition service
 
-**Before you begin**
+## Before you begin 
 
 Before setting up your environment, and in order to create the services needed for the workshop, you'll need an IBM Cloud account. 
 
