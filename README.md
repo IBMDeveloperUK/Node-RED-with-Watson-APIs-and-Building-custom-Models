@@ -23,10 +23,21 @@ Before setting up your environment, and in order to create the services needed f
 1. [Sign up for an account here](https://cloud.ibm.com/registration)
 2. Verify your account by clicking on the link in the email sent to you
 
-## Run Node-RED using IBM Cloud
+## Step 1 
+
+### Run Node-RED using IBM Cloud
 
 1. Log in to your [IBM Cloud account](http://cloud.ibm.com)
 2. Click on "Catalog" at the top-right corner
 3. Search and select "Node-RED Starter" 
 4. Give a unique name to your app and click "Create"
 5. Once your app is created you'll be able to access it through the [resource list](https://cloud.ibm.com/resources)
+
+## Step 2 
+
+### Create a Visual Recognition service
+
+1. Click the "Create Resource" Option at the top right corner 
+
+
+3. Search and select "Node-RED Starter" 
