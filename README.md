@@ -42,4 +42,6 @@ Before setting up your environment, and in order to create the services needed f
 ![](Images/Create_resource.png)
  
 
-3. Search and select "Node-RED Starter" 
+2. Seach for 'Visual Recognition' and select the 'Lite Plan' and click 'Create' 
+
+![](Images/visual_recogntion.png)
