@@ -99,5 +99,5 @@ When you click on each node to highlight it,the 'Info' tab on the right navigati
  
  Double click the switch node and enter the info shown on the following image and click Done.
  
- ![](Images/Switch_Details.png) 
+ ![](Images/Swtich_Details.png) 
  
