@@ -71,7 +71,7 @@ Rename your Flow via the menu to IBM Node-RED Lab. Click Done.
 In the left navigation pane of the Editor you will see a lot of standard Node-RED nodes. At the end of the list there are certain categories already customized by IBM, such as `IBM_Watson`. 
 
 As a first step, 
-From the input category of nodes drag the ![](Images/HTTP.png) node and drop it on the editor pane. 
+From the input category of nodes drag the ![](Images/http_image.png) node and drop it on the editor pane. 
 
 The Info pane on the right side bar give you some information about the node
  
