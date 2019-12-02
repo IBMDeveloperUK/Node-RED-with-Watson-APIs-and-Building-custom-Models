@@ -73,7 +73,7 @@ In the left navigation pane of the Editor you will see a lot of standard Node-RE
 As a first step, 
 From the input category of nodes drag the ![](Images/http_image.png) node and drop it on the editor pane. 
 
-The Info pane on the right side bar give you some information about the node
+When you click on each node to highlight it,the 'Info' tab on the right navigation pane will give you some information about the selected node. 
  
- 
+ ![](Images/HTTP.png)
  
