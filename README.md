@@ -101,3 +101,60 @@ When you click on each node to highlight it,the 'Info' tab on the right navigati
  
  ![](Images/Swtich_Details.png) 
  
+ ## Step 8 
+ 
+From the function section of nodes drag a 'template' node and drop it on the editor pane and connect the “is null” output of the switch to the input of the template.
+
+
+
+Step 20   
+
+Double click the template and specify the following information: 
+a)	Name: Get Image URL
+b)	Leave property as msg.payload
+c) Syntax Highlight: HTML 
+d) Format: Moustache template Template: 
+e) Paste the following code in the Template field
+
+```
+<style>
+input[type=submit]{
+    background-color: rgb(85,150,230);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+)
+input[type=text] {
+    width: 50em;  height: 3em;
+}
+</style>
+<script type="text/javascript">
+function clicked(address) {
+ var form = document.getElementById("imageform");
+ document.getElementById('imageurl').value = address.src;
+ form.submit();
+}
+</script>
+<h1>Welcome to the Watson Visual Recognition Demo on Node-RED</h1>
+ <h2>Click an Image </h2>
+ <form  action="{{req._parsedUrl.pathname}}" id="imageform">
+ <img src="http://visual-recognition-demo.ng.bluemix.net/images/samples/1.jpg" height='100'
+onclick="clicked(this)"/>
+ <img src="http://visual-recognition-demo.ng.bluemix.net/images/samples/2.jpg" height='100'
+onclick="clicked(this)"/>
+ <img src="http://visual-recognition-demo.ng.bluemix.net/images/samples/3.jpg" height='100'
+onclick="clicked(this)"/>
+ <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_II_March_2015.jpg/4
+55px-Queen_Elizabeth_II_March_2015.jpg" height='100' onclick="clicked(this)"/>
+ <h2>or paste an URL from the internet</h2>
+        <input type="text" name="imageurl" id="imageurl"/><br>
+        <input type="submit" value="Analyze"/>
+</form> 
+
+```
