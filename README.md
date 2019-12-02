@@ -77,3 +77,11 @@ When you click on each node to highlight it,the 'Info' tab on the right navigati
  
  ![](Images/HTTP.png)
  
+ ## Step 5 
+ 
+ Double click the http input node and specify the Method as a http GET request .Specify a name for your url which in this case is /reco
+ You will be able to access the endpoint by removing everything after appdomain.cloud/ in your URL, and replacing it with /reco
+ 
+ Click Done once completed. 
+
+![](Images/Reco.png) 
