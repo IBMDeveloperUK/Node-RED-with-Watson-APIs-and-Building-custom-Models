@@ -106,15 +106,13 @@ When you click on each node to highlight it,the 'Info' tab on the right navigati
 From the function section of nodes drag a 'template' node and drop it on the editor pane and connect the “is null” output of the switch to the input of the template.
 
 
-
-Step 20   
-
 Double click the template and specify the following information: 
-a)	Name: Get Image URL
-b)	Leave property as msg.payload
-c) Syntax Highlight: HTML 
-d) Format: Moustache template Template: 
-e) Paste the following code in the Template field
+
+ a.	Name: Get Image URL
+ b. Leave property as msg.payload
+ c. Syntax Highlight: HTML 
+ d. Format: Moustache template Template: 
+ e. Paste the following code in the Template field
 
 ```
 <style>
