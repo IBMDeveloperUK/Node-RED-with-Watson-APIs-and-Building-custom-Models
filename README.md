@@ -85,3 +85,19 @@ When you click on each node to highlight it,the 'Info' tab on the right navigati
  Click Done once completed. 
 
 ![](Images/Reco.png) 
+
+ ## Step 6
+ 
+ As you might have noticed, all the nodes are classified into different categories on the left pane. 
+ From the 'function' nodes drag a ![](Images/Switch_Image.png) node and drop it on the editor pane. 
+ 
+ Select the output of the /reco node and drop it on the input of the switch node.  
+ 
+ ![](Images/Switch.png) 
+ 
+ ## Step 7 
+ 
+ Double click the switch node and enter the info shown on the following image and click Done.
+ 
+ ![](Images/Switch_Details.png) 
+ 
