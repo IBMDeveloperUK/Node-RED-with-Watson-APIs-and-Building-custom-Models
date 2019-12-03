@@ -212,7 +212,7 @@ Add another ![](Images/Template.png) Node behind the Visual Recognition node. Do
 ```
 Click Done. 
 
-Optional Styling to add at the top of the template field (before the code pasted in the previous step) 
+### Optional Styling to add at the top of the template field (before the code pasted in the previous step) 
 
 ``` 
 <style> 
@@ -257,9 +257,12 @@ input[type=submit]{
 
 ## Step 12
 
-As the final node add a ![](Images/http_response.png)  name it HTTP Response, and connect it as shown in the following picture. Optional   nodes display the output of the node in the right side bar on the debug tab. 
+As the final node add a ![](Images/http_respone.png)  name it HTTP Response, and connect it as shown in the following picture. 
+
+Add Optional Debug nodes as required which display the output of the node in the right side bar on the debug tab. 
 
 ![](Images/Final_nodes.png)
 
 
+Click the ![](Images/Deploy.png) button at the top of the Node-RED application to de- ploy the flow in your environment. 
 
