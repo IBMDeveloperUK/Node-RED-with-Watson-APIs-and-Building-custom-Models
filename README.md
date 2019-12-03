@@ -259,7 +259,7 @@ input[type=submit]{
 
 As the final node add a ![](Images/http_response.png)  name it HTTP Response, and connect it as shown in the following picture. Optional   nodes display the output of the node in the right side bar on the debug tab. 
 
-![](Images/final_nodes.png)
+![](Images/Final_nodes.png)
 
 
 
