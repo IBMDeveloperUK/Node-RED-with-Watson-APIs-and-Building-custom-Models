@@ -115,7 +115,9 @@ Double click the template and specify the following information:
  e. Paste the following code in the Template field
 
 ```
-<style>
+
+
+    <style>
 input[type=submit]{
     background-color: rgb(85,150,230);
     border: none;
@@ -141,11 +143,11 @@ function clicked(address) {
 <h1>Welcome to the Watson Visual Recognition Demo on Node-RED</h1>
  <h2>Click an Image </h2>
  <form  action="{{req._parsedUrl.pathname}}" id="imageform">
- <img src="http://visual-recognition-demo.ng.bluemix.net/images/samples/1.jpg" height='100'
+ <img src="https://images.unsplash.com/photo-1570171278960-d6c2b316f3b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height='100'
 onclick="clicked(this)"/>
- <img src="http://visual-recognition-demo.ng.bluemix.net/images/samples/2.jpg" height='100'
+ <img src="https://images.unsplash.com/photo-1568198473832-b6b0f46328c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1592&q=80" height='100'
 onclick="clicked(this)"/>
- <img src="http://visual-recognition-demo.ng.bluemix.net/images/samples/3.jpg" height='100'
+ <img src="https://images.unsplash.com/photo-1551717743-49959800b1f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1647&q=80" height='100'
 onclick="clicked(this)"/>
  <img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_II_March_2015.jpg/4
@@ -156,3 +158,7 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_I
 </form> 
 
 ```
+
+![](Images/Template_Code.png) 
+
+Click Done once completed
