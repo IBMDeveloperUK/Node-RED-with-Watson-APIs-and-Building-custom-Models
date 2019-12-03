@@ -176,7 +176,7 @@ Changes should look as follows
 
 From the IBM_Watson category select the ![](Images/Visual_Recognition_Image.png) node and drop it behind the change node (Extract Image URL) from the previous step. Double click the Visual Recognition node and enter your API key you have created for the Visual Recognition service and change the Service Endpoint as shown below. Click Done
 
-![](Images/Visual_Rec_Endpoint.png) 
+![](Images/Visual_Rec_Enpoint.png) 
 
 ![](Images/Visual_Rec_Image.png) 
 
