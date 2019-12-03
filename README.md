@@ -159,6 +159,21 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_I
 
 ```
 
-![](Images/Template_Code.png) 
-
 Click Done once completed
+
+## Step 9
+
+Add a 'Function' node (named Extract img URL) to convert the imageurl JSON object to a string and assign it to the payload to be provided as input to the Visual Recognition node. 
+
+Changes should look as follows
+
+
+![](Images/Extract_URL.png) 
+
+![](Images/Extract_URL_Nodes.png) 
+
+
+
+
+
+
