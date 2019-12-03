@@ -182,8 +182,75 @@ From the IBM_Watson category select the ![](Images/Visual_Recognition_Image.png)
 
 ## Step 11 
 
-Add another ![](Images/Template.png)   behind the Visual Recognition node. Double Click the Template Node to Edit with fields mentioned below
+Add another ![](Images/Template.png) Node behind the Visual Recognition node. Double Click the Template Node to Edit with fields mentioned below
+
 1)  Name: Report 
 2)  property: message.payload 
 3)  Syntax Highlight: mustache 
 4)  Format: Mustache template 
+
+5) Template (paste the following code in the template field)
+
+```
+<div align="center">
+    <form  action="{{req._parsedUrl.pathname}}">
+        <input type="submit" value="Try again"/>
+    </form>
+<h1>Node-RED Watson Visual Recognition output</h1> <p>Analyzed image: {{req.query.imageurl}}<br/><img src="{{req.query.imageurl}}" height='200'/></p> <p><b>Here are my results:</b></p> {{#result.images}} 
+        {{#classifiers}}
+            <table border="0">
+            <tr><td class=classifier colspan="2">{{classifier_id}}</td></tr>
+                <tr><td class="title">Class</td><td class="title">Score</td></tr>
+                {{#classes}}
+                <tr><td><b>{{class}}</b></td><td><i>{{score}}</i></td></tr>
+                {{/classes}}
+            </table>
+        {{/classifiers}}
+    {{/result.images}}
+</div>
+
+```
+Click Done. 
+
+Optional Styling to add at the top of the template field (before the code pasted in the previous step) 
+
+``` 
+<style> 
+
+h4 { 
+    text-align: center;
+    margin: 10px;
+}
+table {
+    width: 480px;
+    margin-top: 10px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: #FFFFFF;
+    width: 50%;
+}
+.classifier {
+    background-color: rgb(85,150,230);
+    text-align: center;
+}
+.title {
+    background-color:LightGrey;
+}
+input[type=submit]{
+    background-color: rgb(85,150,230);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+) 
+
+</style>
+
+``` 
