@@ -178,5 +178,5 @@ From the IBM_Watson category select the ![](Images/Visual_Recognition_Image.png)
 
 ![](Images/Visual_Rec_Enpoint.png) 
 
-![](Images/Visual_Rec_Image.png) 
+![](Images/Visual_Rec_Image.png)
 
