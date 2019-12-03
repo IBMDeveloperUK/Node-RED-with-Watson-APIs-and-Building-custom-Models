@@ -180,3 +180,10 @@ From the IBM_Watson category select the ![](Images/Visual_Recognition_Image.png)
 
 ![](Images/Visual_Rec_Image.png)
 
+## Step 11 
+
+Add another ![](Images/Template.png)   behind the Visual Recognition node. Double Click the Template Node to Edit with fields mentioned below
+1)  Name: Report 
+2)  property: message.payload 
+3)  Syntax Highlight: mustache 
+4)  Format: Mustache template 
