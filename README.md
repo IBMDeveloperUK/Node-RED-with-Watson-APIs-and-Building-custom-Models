@@ -270,7 +270,7 @@ Click the ![](Images/Deploy.png) button at the top of the Node-RED application t
 
 ## Step 14 
 
-Test the flow by calling the url http://<yourNode-REDHost>.cloud/reco 
+#### Test the flow by calling the url http://<yourNode-REDHost>.cloud/reco 
  
  
 Click on one of the images or Copy and Paste any image URL from the internet and click Analyse for your Visual Recognition Output
@@ -279,4 +279,4 @@ Click on one of the images or Copy and Paste any image URL from the internet and
 
 
 
------------------------------------ LAB COMPLETE ------------------------------------------
+
