@@ -264,5 +264,19 @@ Add Optional Debug nodes as required which display the output of the node in the
 ![](Images/Final_nodes.png)
 
 
-Click the ![](Images/Deploy.png) button at the top of the Node-RED application to de- ploy the flow in your environment. 
+## Step 13 
+Click the ![](Images/Deploy.png) button at the top of the Node-RED application to deploy the flow in your environment. 
 
+
+## Step 14 
+
+Test the flow by calling the url http://<yourNode-REDHost>.cloud/reco 
+ 
+ 
+## Step 15
+ 
+Click on one of the images or Copy and Paste any image URL from the internet and click Analyse for your Visual Recognition Output
+
+
+
+----------------------------------- LAB COMPLETE ------------------------------------------
