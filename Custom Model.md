@@ -21,5 +21,13 @@
 - You should now be in Watson Studio.
 - Create a new project by clicking on `Get Started` and `New Project`, or `Create Project`
 - Give your Project a name.
-- **Select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. Do not forget to click refresh when returning to the Project page.**
+
+**Select an Object Storage from the drop-down menu or create a new one for free. This is used to store the notebooks and data. Do not forget to click refresh when returning to the Project page.**
+
 - Click `Create`.  
+
+![](Images/Cos.png)
+
+### 2. Once the project is created, Click 'Add to Project' on the top right and select 'Visual Recognition' as shown below 
+
+![](Images/Asset.png)
