@@ -16,7 +16,7 @@
 
 ## IBM Watson Studio
 
-### 1. Create a new Project
+#### 1. Create a new Project
 
 - You should now be in Watson Studio.
 - Create a new project by clicking on `Get Started` and `New Project`, or `Create Project`
@@ -28,6 +28,15 @@
 
 ![](Images/Cos.png)
 
-### 2. Once the project is created, Click 'Add to Project' on the top right and select 'Visual Recognition' as shown below 
+#### 2. Once the project is created, Click 'Add to Project' on the top right and select 'Visual Recognition' as shown below 
 
 ![](Images/Asset.png)
+
+#### 3. Associate a service 
+
+You will need to associate a Visual Recognition Service, As we have already created one as part of the previous workshop you will find it in the drop down. 
+
+Click on the hyperlink provided to associate your service and select the 'existing' tab to choose your service from the drop down menu. 
+
+![](Images/Service.png)
+
