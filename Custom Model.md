@@ -38,5 +38,5 @@ You will need to associate a Visual Recognition Service, As we have already crea
 
 Click on the hyperlink provided to associate your service and select the 'existing' tab to choose your service from the drop down menu. 
 
-![](Images/Service.png)
+#![](Images/Service.png)
 
