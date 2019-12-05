@@ -43,3 +43,7 @@ The second inject node will be used to inject text into the flow. Any text can b
 
  ![](Images/second_inject.png)
 
+
+Configure the Natural Language Understanding node for the service features that you want to detect. As you select the items you require, the node menu will expand with additional options.
+
+![](Images/NLU_Node.png)
