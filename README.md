@@ -284,5 +284,5 @@ Click on one of the images or Copy and Paste any image URL from the internet and
 
 ## Part 3 
 
-* [Training a Custom Model Using Watson Studio](Custom Model.md)
+* [Training a Custom Model Using Watson Studio](Custom Model.md) 
 
