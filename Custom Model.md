@@ -56,8 +56,17 @@ Click #Train Model once all steps are completed.
 
 ![](Images/Train_Model.png)
 
-#### Test your model 
+#### 5. Test your model 
 
-Once the training is complete you will see the following image, 
+Once the training is complete you will see the following message
 
 ![](Images/Trainin_Success.png)
+
+Click to add an image and train it against the custom model you created. 
+
+The image will be trained against all the classes part of your model. You can edit and retrain your model to improve results. 
+
+![](Images/results.png)
+
+
+
