@@ -284,5 +284,5 @@ Click on one of the images or Copy and Paste any image URL from the internet and
 
 ## Part 3 
 
-* [Creating a custom Model on Watson Studio] (Custom Model.md) 
+* [Creating a custom Model on Watson Studio] (CustomModel.md) 
 
