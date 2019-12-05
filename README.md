@@ -277,6 +277,12 @@ Click on one of the images or Copy and Paste any image URL from the internet and
 
 
 
+## Part 2
+
+* [IBM Watson Natural Language Understanding](WatsonNLU.md) 
 
 
+## Part 3 
+
+* [Training a Custom Model Using Watson Studio](Custom Model.md)
 
