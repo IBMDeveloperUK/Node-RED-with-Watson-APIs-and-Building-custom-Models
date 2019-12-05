@@ -13,17 +13,27 @@ The Node-RED ![](Images/nlu_node.jpg) Node provides an easy to use wrapper that 
 
 Similar to the previous workshop, search for 'natural language understanding' in your IBM cloud dashboard and click create 
 
-![](Images/nlu_create.png)
+![](Images/NLU_create.png)
 
 #### Copy your API credentials to use in Node-RED
 
-## Building the Flow  
+### Building the Flow  
+
 Add the following nodes from the palette to your flow canvas.
 *	Two Inject nodes.
 *	A Natural Language Understanding node.
 * A Debug node.
 
 ### Flow Wiring
-Wire the nodes together like so:
 
+Wire the nodes together to look like this 
+
+# ![](Images/NLU_Nodes.png)
+
+### Configuring the nodes
+
+The first Inject node is used to inject a URL into the flow. This example uses the standard IBM UK site. https://www.ibm.com/uk-en
+
+
+# ![](Images/Inject.png)
 
