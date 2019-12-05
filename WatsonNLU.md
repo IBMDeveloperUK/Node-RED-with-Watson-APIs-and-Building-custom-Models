@@ -58,11 +58,11 @@ You will be able to see the output in the debug tab on in the right navigation p
 
 Your output from the URL Inject node should look like this
 
-![](Images/second_inject.png)
+![](Images/URL.png)
 
 
 And your output from the Text Inject Node should look like this 
 
-![](Images/second_inject.png)
+![](Images/Text.png)
 
 In the Debug Tab, expand the different categories in the features section of the output to better undestand the output for each use case.
