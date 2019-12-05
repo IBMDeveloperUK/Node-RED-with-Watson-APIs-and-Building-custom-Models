@@ -40,7 +40,7 @@ Click on the hyperlink provided to associate your service and select the 'existi
 
 ![](Images/Service.png)
 
-#### 4. Create Custom Model 
+#### 4. Create and Train Custom Model 
 
 Under the Custom Models options, we will be using 'Classify Images' , click on 'create model' under this category. 
 
@@ -56,4 +56,8 @@ Click #Train Model once all steps are completed.
 
 ![](Images/Train_Model.png)
 
+#### Test your model 
 
+Once the training is complete you will see the following image, 
+
+![](Images/Training_Success.png)
