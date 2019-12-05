@@ -69,4 +69,3 @@ The image will be trained against all the classes part of your model. You can ed
 ![](Images/results.png)
 
 
-
