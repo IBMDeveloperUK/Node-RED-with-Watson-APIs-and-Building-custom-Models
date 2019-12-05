@@ -38,5 +38,22 @@ You will need to associate a Visual Recognition Service, As we have already crea
 
 Click on the hyperlink provided to associate your service and select the 'existing' tab to choose your service from the drop down menu. 
 
-# ![](Images/Service.png)
+![](Images/Service.png)
+
+#### 4. Create Custom Model 
+
+Under the Custom Models options, we will be using 'Classify Images' , click on 'create model' under this category. 
+
+You will see the below page, give your model a Name and use the 'Find and add Images' option on the top right corner to add your Zip files. 
+
+Classes are created automatically based on your zip files, but you can create a new class and add images as needed as well. 
+
+Rename your classes as required. 
+
+Click #Train Model once all steps are completed. 
+
+(Take a break, this may take a few minutes) 
+
+![](Images/Train_Model.png)
+
 
