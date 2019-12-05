@@ -140,7 +140,7 @@ function clicked(address) {
  form.submit();
 }
 </script>
-<h1>Welcome to the Watson Visual Recognition Demo on Node-RED</h1>
+<h1>Watson Visual Recognition Demo on Node-RED</h1>
  <h2>Click an Image </h2>
  <form  action="{{req._parsedUrl.pathname}}" id="imageform">
  <img src="https://images.unsplash.com/photo-1570171278960-d6c2b316f3b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" height='100'
