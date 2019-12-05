@@ -1,5 +1,5 @@
 
-- Navigate back to the IBM cloud Dasboard and click `Create Resource` at the top right. 
+- Navigate to the IBM cloud Dasboard and click `Create Resource` at the top right. 
 
  (You can find the resources under the hamburger menu at the top left)
 
