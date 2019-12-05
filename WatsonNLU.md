@@ -37,3 +37,9 @@ The first Inject node is used to inject a URL into the flow. This example uses t
 
 # ![](Images/Inject.png)
 
+The second inject node will be used to inject text into the flow. Any text can be used, for example:
+
+``` IBM Natural Language Understading is a service on IBM Cloud that enables you to analyze text ```
+
+ ![](Images/second_inject.png)
+
