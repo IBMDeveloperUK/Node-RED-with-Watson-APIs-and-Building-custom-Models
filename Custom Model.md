@@ -60,4 +60,4 @@ Click #Train Model once all steps are completed.
 
 Once the training is complete you will see the following image, 
 
-![](Images/Training_Success.png)
+![](Images/Trainin_Success.png)
