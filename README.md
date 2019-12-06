@@ -1,4 +1,4 @@
-# Node-RED-and-Watson-Visual-Recognition
+# Node-RED and Watson Visual Recognition 
 
 ## Overview 
 
@@ -20,7 +20,7 @@ This app in this lab will be created and run on your IBM Cloud Account.
 
 Before setting up your environment, and in order to create the services needed for the workshop, you'll need an IBM Cloud account. 
 
-1. [Sign up for an account here](https://cloud.ibm.com/registration)
+1. [Sign up for an account here](https://ibm.biz/BdzgtA)
 2. Verify your account by clicking on the link in the email sent to you
 
 
@@ -48,7 +48,7 @@ Before setting up your environment, and in order to create the services needed f
 
 ### Run Node-RED using IBM Cloud
 
-1. Log in to your [IBM Cloud account](http://cloud.ibm.com)
+1. Log in to your [IBM Cloud account](https://ibm.biz/BdzgtA)
 2. Click on "Catalog" at the top-right corner
 3. Search and select "Node-RED Starter" 
 4. Give a unique name to your app and click "Create"
