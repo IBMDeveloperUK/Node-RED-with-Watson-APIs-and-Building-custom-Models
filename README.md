@@ -103,16 +103,17 @@ When you click on each node to highlight it,the 'Info' tab on the right navigati
  
  ## Step 8 
  
-From the function section of nodes drag a 'template' node and drop it on the editor pane and connect the “is null” output of the switch to the input of the template.
+From the function section of nodes drag a 'template' ![](Images/Template.png)  node and drop it on the editor pane and connect the “is null” output of the switch to the input of the template.
+
 
 
 Double click the template and specify the following information: 
 
- a.	Name: Get Image URL
- b. Leave property as msg.payload
- c. Syntax Highlight: HTML 
- d. Format: Moustache template Template: 
- e. Paste the following code in the Template field
+ 1.	Name: Get Image URL
+ 2. Leave property as msg.payload
+ 3. Syntax Highlight: HTML 
+ 4. Format: Moustache template Template: 
+ 5. Paste the following code in the Template field
 
 ```
 
@@ -161,6 +162,9 @@ src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Queen_Elizabeth_I
 
 Click Done once completed
 
+![](Images/Get_Image_URL.png) 
+
+
 ## Step 9
 
 Add a 'Function' node (named Extract img URL) to convert the imageurl JSON object to a string and assign it to the payload to be provided as input to the Visual Recognition node. 
@@ -171,6 +175,8 @@ Changes should look as follows
 ![](Images/Extract_URL.png) 
 
 ![](Images/Extract_URL_Nodes.png) 
+
+
 
 ## Step 10
 
