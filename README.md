@@ -12,7 +12,7 @@ Node-RED is included in the Node-RED starter application in IBM Cloud but you ca
 
 This app in this lab will be created and run on your IBM Cloud Account.
 
-• In a first step, a IBM Cloud Node-RED environment will be created and setup. This will then host your Node-RED flows.
+• As a first step, IBM Cloud Node-RED environment will be created and setup. This will then host your Node-RED flows.
 
 • Next you will create a simple Node-RED flow that allows you to past an Image URL from the Web and pass it to the IBM Watson Visual Recognition service
 
@@ -116,7 +116,6 @@ Double click the template and specify the following information:
  5. Paste the following code in the Template field
 
 ```
-
 
     <style>
 input[type=submit]{
