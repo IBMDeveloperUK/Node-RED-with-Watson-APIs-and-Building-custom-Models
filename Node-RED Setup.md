@@ -51,3 +51,6 @@ You will be redirected to the App Details page, where you will need to Confirgur
  
 ![](Images/Console.png)
  
+ • Your App runtime is now ready to use : Click on the "Visit app URL" option to access your Node-RED Flow editor
+ 
+ ![](Images/appurl.png)
