@@ -37,3 +37,10 @@ You will be redirected to the App Details page, where you will need to Confirgur
   ![](Images/region.png)
  
 
+## Step 6 
+
+• When you click next you will see details about the 
+
+ - <b> Deployment Automation </b> : Name, Location and Tool Integrations 
+ 
+ - <b> Delivery Pipelines </b> : Wait for the Status to change to <b> Success </b> and Click on the link 
