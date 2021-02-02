@@ -54,3 +54,9 @@ You will be redirected to the App Details page, where you will need to Confirgur
  • Your App runtime is now ready to use : Click on the "Visit app URL" option to access your Node-RED Flow editor
  
  ![](Images/appurl.png)
+ 
+ ## Step 8 
+ 
+  • You will be redirected to the below page, click on the " Go to your Node-RED flow Editor" option and follow through with the next steps to launch the application 
+  
+   ![](Images/NR.png)
