@@ -14,10 +14,14 @@
 
 ## Step 3
 
-You will be redirected to the App Details page, where you will need to Confirgure the Continous delivery pipeline  
+You will be redirected to the App Details page, where you will need to Confirgure the Continous delivery pipeline. Select the "Deploy your app"  option as shown below 
 
 
 ![](Images/CDP.png)
 
+## Step 4 
 
+On the next step choose <b> Cloud Foundry <b> as your deployment target 
+   
+   ![](Images/CF.png)
 
