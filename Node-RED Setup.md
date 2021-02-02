@@ -21,7 +21,11 @@ You will be redirected to the App Details page, where you will need to Confirgur
 
 ## Step 4 
 
-On the next step choose <b> Cloud Foundry <b> as your deployment target 
+ • On the next step choose <b> Cloud Foundry </b> as your deployment target 
    
    ![](Images/CF.png)
+   
+ • You will also need to include the IBM Cloud API Key, Click on <b> "New" </b> to generate your API key. 
+ 
+ ![](Images/key.png)
 
