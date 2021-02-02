@@ -28,12 +28,14 @@ Once you have created your IBM cloud account, follow the below instructions to s
 
 [Node-RED Setup](https://github.com/IBMDeveloperUK/Node-RED-with-Watson-APIs-and-Building-custom-Models/blob/master/Node-RED%20Setup.md)
 
-## Part 2
+## Node-RED and IBM Watson APIs
+
 
 * [IBM Watson Natural Language Understanding](WatsonNLU.md) 
 
 
-## Part 3 
+
+## Part 2 
 
 * [Creating a Custom Model on Watson Studio](CustomModel.md) 
 
