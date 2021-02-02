@@ -28,4 +28,12 @@ You will be redirected to the App Details page, where you will need to Confirgur
  • You will also need to include the IBM Cloud API Key, Click on <b> "New" </b> to generate your API key. 
  
  ![](Images/key.png)
+ 
+ 
+ ## Step 5 
+ 
+ • Select your specific <b> Region </b>. This should be the same as what you provided in the first step while creating the application. 
+ 
+  ![](Images/region.png)
+ 
 
