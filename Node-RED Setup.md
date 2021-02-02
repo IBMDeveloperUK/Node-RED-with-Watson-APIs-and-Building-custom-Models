@@ -49,6 +49,5 @@ You will be redirected to the App Details page, where you will need to Confirgur
  
  • Your Build and Deploy stages should be successful. Click one the "View Console" option once both stages are completed successfully. 
  
- 
 ![](Images/Console.png)
  
