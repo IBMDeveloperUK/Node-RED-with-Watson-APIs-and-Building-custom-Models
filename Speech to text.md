@@ -6,7 +6,7 @@ The IBM Watson™ Speech to Text service provides speech transcription capabilit
 The service provides APIs that make it suitable for any application where speech is the input and a textual transcript is the output.
 
 ## Node-RED Watson Speech to Text node
-The Node-RED ![`STT`](images/stt_node.png) node provides a very easy wrapper node to convert human voice into written words
+The Node-RED ![`STT`](Images/Speechnode.png) node provides a very easy wrapper node to convert human voice into written words
 
 
 ## In this hands-on lab we will use the Speech to text Node to work with 
