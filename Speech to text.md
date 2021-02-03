@@ -50,9 +50,22 @@ The .wav file provided as an example is in English. If you're using your own fil
 
 Finally add a debug node. This will allow you to see the results of the transcription. Configure as follows 
 
-
 ![](Images/sttdebug.png)
 
+
+### Part 2 : You can also choose to upload the file from your system or use your microphone
+
+The audio file can be downloaded [here](http://sd-2.archive-host.com/membres/up/102033098234604628/SpaceShuttle.wav) (click the download arrow).
+
+Start by using the File Inject Node and build the flow as shown below 
+
+
+![](Images/fileinject.png)
+
+
+Continue by adding the Speech to Text node after the File Inject Node. You will need the username and password from the Speech to Text service in IBM Cloud. Configurations remain the same as step 1 
+
+Finally, add a Debug node. You need to configure this for getting the output in the debug window. The Speech to Text node outputs the transcribed text into msg.transcription so you need to set the debug node to listen for <b> msg.transcription </b> as done in the previous step 
 
 
 
