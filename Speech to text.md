@@ -38,6 +38,12 @@ Configure your Inject Node as shown
 ![](Images/sttinject.png)
 
 
+## Next, add a Speech to Text node. This will stream the .wav file from the URL provided and transcribe it. Configure the node like this:
+
+
+![](Images/sttdetails.png)
+
+
 
 
 
