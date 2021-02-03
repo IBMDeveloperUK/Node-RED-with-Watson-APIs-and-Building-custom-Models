@@ -114,3 +114,5 @@ Drag and drop a debug node from the nodes palette, and wire it to your Language 
 ![](Images/identify.png)
 
  ### Deploy and initiate the inject nodes
+ 
+## You can use the ![Listing identifiable languages](https://cloud.ibm.com/docs/language-translator?topic=language-translator-identifiable-languages)link to compare your ouput.
