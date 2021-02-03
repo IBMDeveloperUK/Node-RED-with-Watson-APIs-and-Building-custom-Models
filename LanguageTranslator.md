@@ -9,7 +9,7 @@ The service offers multiple IBM-provided translation models that you can customi
 communicate with your customers in their own language, and more.
 
 
-## Node-RED Watson Language Translator nodes ![](images/lttnodes.jpg)
+## Node-RED Watson Language Translator nodes ![](Images/ltnodes.png)
 
 
 These nodes provide a set of easy wrapper nodes to
