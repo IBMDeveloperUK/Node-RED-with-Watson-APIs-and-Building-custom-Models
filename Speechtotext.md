@@ -9,9 +9,9 @@ The service provides APIs that make it suitable for any application where speech
 The Node-RED ![`STT`](Images/Speechnode.png) node provides a very easy wrapper node to convert human voice into written words
 
 
-## In this hands-on lab we will use the Speech to text Node to work with 
+## In this hands-on lab we will use the Speech to text Node to: 
 - Convert a URL passed in our Node-RED Flow
--  A stand-alone system (using a local file or your microphone)
+- A stand-alone system (using a local file or your microphone)
 
 
 ### Prerequisites
