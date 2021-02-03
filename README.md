@@ -35,6 +35,8 @@ Once you have created your IBM cloud account, follow the below instructions to s
 
 * [Speech to Text](Speechtotext.md) 
 
+* [Language translator](LanguageTranlator.md) 
+
 
 
 ## Part 2 
