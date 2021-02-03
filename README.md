@@ -40,7 +40,7 @@ Once you have created your IBM cloud account, follow the below instructions to s
 
 ## Model Asset Exchange 
 
-* [Model Asset Exchange models] (https://developer.ibm.com/exchanges/models/)
+* [Model Asset Exchange models](https://developer.ibm.com/exchanges/models/)
 
 
 
