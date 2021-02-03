@@ -38,6 +38,11 @@ Once you have created your IBM cloud account, follow the below instructions to s
 * [Language translator](LanguageTranlator.md) 
 
 
+## Model Asset Exchange 
+
+* [Model Asset Exchange models] (https://developer.ibm.com/exchanges/models/)
+
+
 
 ## Part 2 
 
