@@ -73,3 +73,37 @@ This will translate your text from English to Spanish.
 ### Link the function node back to the Language Translator node. Deploy and initiate the inject node.
 
 
+## The Identify flow
+
+This example will have 3 inputs with different languages. The language identify flow should look like
+
+### en text inject node
+Add an inject node to the canvas. Double-click the node, then change the name to identify the block. Change the input type to string and add your required text. For example:
+
+> Give me one good reason why I should never make a change
+
+![](Images/en.png)
+
+### af text inject node
+Add another inject node to the canvas. Double-click the node, then change the name to identify the block, change the input type to string and add your required text. As an example, Afrikaans text:
+
+> As jy in die bende wil wees, moet jy cool wees, soos pappa!
+
+![](Images/af.png))
+
+### it inject node
+Add another inject node to the canvas. Double-click the node, then change the name to identify the block, change the input type to string and add your required text. As an example, Italian text:
+
+> Dovresti solo spegnere le dannate porte!
+
+![](Images/it.png))
+
+
+### Add the Language Identification node
+Drag and drop a Language Identification node from the nodes palette, and wire it to your input node. It does not require any modification.
+
+### Add first debug node
+Drag and drop a debug node from the nodes palette, and wire it to your Language Identification node. Double-click the node, then change the output to msg.lang. This will give you primary language identified.
+
+### Add second debug node
+Drag and drop a debug node from the nodes palette, and wire it to your Language Identification node. Double-click the node, then change the output to msg.languages. This will give you an array of all languages identified in order of the confidence level
