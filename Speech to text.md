@@ -38,10 +38,21 @@ Configure your Inject Node as shown
 ![](Images/sttinject.png)
 
 
-## Next, add a Speech to Text node. This will stream the .wav file from the URL provided and transcribe it. Configure the node like this:
+### Next, add a Speech to Text node. This will stream the .wav file from the URL provided and transcribe it. Configure the node like this:
+
+### make sure to copy the API credentials from the Speech to Text service created on IBM Cloud
 
 
-![](Images/sttdetails.png)
+![](Images/stt.png)
+
+
+The .wav file provided as an example is in English. If you're using your own file in a different language make sure to change it the language in the Speech to Text node. You can also select the quality of your .wav file (narrowband or broadband) and choose whether you want the speaker labels to be on to identify which individuals are speaking.
+
+Finally add a debug node. This will allow you to see the results of the transcription. Configure as follows 
+
+
+![](Images/sttdebug.png)
+
 
 
 
