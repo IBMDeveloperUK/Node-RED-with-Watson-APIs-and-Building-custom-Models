@@ -68,7 +68,17 @@ Continue by adding the Speech to Text node after the File Inject Node. You will 
 Finally, add a Debug node. You need to configure this for getting the output in the debug window. The Speech to Text node outputs the transcribed text into msg.transcription so you need to set the debug node to listen for <b> msg.transcription </b> as done in the previous step 
 
 
+### Using the Microphone Node : You can also use the microphone node as Input for the Speech to text node 
 
+Wire together the Flow as shown below. 
+
+Use the Input option on your microphone node to start/stop your recording. This will automatically take input from your system microphone and transcribe the text in the Debug Window. 
+
+![](Images/sttmicrophone.png)
+
+
+### Wire all the nodes together and click on 'Deploy'. Initiate the Inject node, File in, or Microphone node and you will see the transcribed text from the audio file in the debug window.
+ 
 
 
 
