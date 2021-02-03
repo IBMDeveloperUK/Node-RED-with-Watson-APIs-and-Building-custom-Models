@@ -113,4 +113,4 @@ Drag and drop a debug node from the nodes palette, and wire it to your Language 
 
 ![](Images/identify.png)
 
- ### Deploy and initiate the inject node.
+ ### Deploy and initiate the inject nodes
