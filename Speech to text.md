@@ -17,7 +17,28 @@ The Node-RED ![`STT`](Images/Speechnode.png) node provides a very easy wrapper n
 ### Prerequisites
 To get the Speech to Text service credentials on IBM Cloud automatically filled-in by Node-RED, you should connect the Speech to Text service to the Node-RED application in IBM Cloud.
 
-
 ![STT Service](Images/Speech.png)
+
+### Setup 
+
+Click on the tile shown above in your IBM cloud dashboard and click create 
+
+### Make sure to Copy your API credentials to use in Node-RED
+
+## Part 1. Uploading from a URL 
+
+In this step, an audio file will be transcribed. An example audio file can be found [here](http://sd-2.archive-host.com/membres/up/102033098234604628/SpaceShuttle.wav). Feel free to use this URL or provide your own.
+
+Start by adding an Inject node to your Flow, the Audio file will be added using the inject node to pass to the Speech to Text Service. 
+
+![](Images/sttflow.png)
+
+Configure your Inject Node as shown 
+
+![](Images/Sttinject.png)
+
+
+
+
 
 
