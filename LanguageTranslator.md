@@ -68,6 +68,6 @@ return msg;
 
 This will translate your text from English to Spanish.
 
-![function`]Iimages/dynamic.jpg)
+![]Iimages/dynamic.png)
 
 Link the function node back to the Language Translator node. Deploy and initiate the inject node.
