@@ -18,6 +18,6 @@ The Node-RED ![`STT`](images/stt_node.png) node provides a very easy wrapper nod
 To get the Speech to Text service credentials on IBM Cloud automatically filled-in by Node-RED, you should connect the Speech to Text service to the Node-RED application in IBM Cloud.
 
 
-![STTSerivce](images/speech.png)
+![STT Service](Images/Speech.png)
 
 
