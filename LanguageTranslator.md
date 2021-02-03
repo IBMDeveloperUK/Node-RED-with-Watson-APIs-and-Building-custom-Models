@@ -107,3 +107,6 @@ Drag and drop a debug node from the nodes palette, and wire it to your Language 
 
 ### Add second debug node
 Drag and drop a debug node from the nodes palette, and wire it to your Language Identification node. Double-click the node, then change the output to msg.languages. This will give you an array of all languages identified in order of the confidence level
+
+
+![](Images/identity.png))
