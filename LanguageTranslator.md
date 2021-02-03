@@ -70,4 +70,6 @@ This will translate your text from English to Spanish.
 
 ![](Images/dynamic.png) 
 
-Link the function node back to the Language Translator node. Deploy and initiate the inject node.
+### Link the function node back to the Language Translator node. Deploy and initiate the inject node.
+
+
