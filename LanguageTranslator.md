@@ -38,15 +38,16 @@ For the Inject node, in the payload, enter some text. You can use any text for t
 
 For the language translator node, if you choose to use the example text then set the node parameters to:
 
-Mode = Translate
-Domains = Conversational
-Source = English
-Target = French
+* Mode = Translate
+* Domains = General
+* Source = English
+* Target = French
+
 However if you have chosen text in a different language, or wish to translate into a different language, then edit the source and target.
 
 ![](Images/translatenode.png) 
 
 Edit the debug node. As the translated text will be returned on msg.payload, make sure that you are looking for this in the Debug node.
 
-![](Images/sttdebug.png.png) 
+![](Images/sttdebug.png) 
 
