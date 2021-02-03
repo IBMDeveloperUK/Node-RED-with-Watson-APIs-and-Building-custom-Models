@@ -35,7 +35,7 @@ Start by adding an Inject node to your Flow, the Audio file will be added using 
 
 Configure your Inject Node as shown 
 
-![](Images/Sttinject.png)
+![](Images/sttinject.png)
 
 
 
