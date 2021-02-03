@@ -51,3 +51,23 @@ Edit the debug node. As the translated text will be returned on msg.payload, mak
 
 ![](Images/sttdebug.png) 
 
+## This completes the first part of the flow. If you deploy and initiate the inject node, you will see the translation in the debug tab.   
+
+### Dynamic Configuration
+
+Start by duplicating the original inject node (copy + paste).
+
+![](Images/ltdynamic.png) 
+
+Add a function node and enter the following code:
+```JAVASCRIPT
+msg.srclang = 'en';
+msg.destlang = 'es';
+return msg;
+```
+
+This will translate your text from English to Spanish.
+
+![function`]Iimages/dynamic.jpg)
+
+Link the function node back to the Language Translator node. Deploy and initiate the inject node.
