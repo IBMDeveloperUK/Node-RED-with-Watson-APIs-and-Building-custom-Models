@@ -75,6 +75,8 @@ This will translate your text from English to Spanish.
 
 ## The Identify flow
 
+![](Images/identity.png)
+
 This example will have 3 inputs with different languages. The language identify flow should look like
 
 ### en text inject node
@@ -109,4 +111,4 @@ Drag and drop a debug node from the nodes palette, and wire it to your Language 
 Drag and drop a debug node from the nodes palette, and wire it to your Language Identification node. Double-click the node, then change the output to msg.languages. This will give you an array of all languages identified in order of the confidence level
 
 
-![](Images/identity.png))
+![](Images/identity.png)
