@@ -33,9 +33,9 @@ Once you have created your IBM cloud account, follow the below instructions to s
 
 * [IBM Watson Natural Language Understanding](WatsonNLU.md) 
 
-* [Speech to Text](Speechtotext.md) 
+* [IBM Watson Speech to Text](Speechtotext.md) 
 
-* [Language translator](LanguageTranslator.md) 
+* [IBM Watson Language translator](LanguageTranslator.md) 
 
 
 ## Model Asset Exchange 
